@@ -8,6 +8,7 @@ import {
   getActiveTrainings,
 } from "./api/status.js";
 import { trainNft } from "./api/trainNft.js";
+import { startLog } from "./config.js";
 import { checkShouldFight } from "./decision/shouldFight.js";
 import { checkShouldLevelUp } from "./decision/shouldLevelUp.js";
 import { checkShouldTrain } from "./decision/shouldTrain.js";
@@ -230,6 +231,7 @@ const initialUI = () => {
       `\nBuilt by @0xMesiya, donations welcome to 0x8465305Fb28F3Ef16879c960e997Ad74689a2B3d\n`
     )
   );
+  startLog();
 };
 
 async function refreshUI() {

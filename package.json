@@ -4,6 +4,7 @@
   "description": "Auto train, fight and level for TheKoroshi web3 nft game",
   "main": "main.js",
   "scripts": {
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -14,6 +15,7 @@
     "blessed-contrib": "^4.11.0",
     "chalk": "^5.4.1",
     "dotenv": "^16.5.0",
+    "minimist": "^1.2.8",
     "node-fetch": "^3.3.2"
   }
 }
